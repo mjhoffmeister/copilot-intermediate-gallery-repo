@@ -93,33 +93,31 @@ GitHub.com provides additional tools for managing Copilot at the organizational 
 
 ---
 
-### 🤝 Step 4: Manage Shared Conversations
+### 🤝 Step 4: Export Conversations to Share with Your Team
 
-**Why this matters:** Shared conversations create a knowledge base of effective AI interactions that your entire team can learn from and build upon.
+**Why this matters:** Exporting conversations creates a knowledge base of effective AI interactions your team can learn from and build upon.
 
-#### Share a Conversation
+> **Note:** GitHub Copilot on github.com previously offered a one-click **Share** link. That feature has been replaced — the supported way to hand a conversation to a teammate today is **Export**, which produces a file you can attach to an issue, PR, wiki page, or chat message.
+
+#### Export a Conversation
 1. **Navigate to GitHub Copilot:** Go to [https://github.com/copilot](https://github.com/copilot)
 2. **Start a chat:** Start a conversation. In the chat window, type the following prompt:
    ```markdown
    What are the advantages of the Go programming language?
    ```
-3. **Share the conversation:** Click the **"Share"** button at the top-right of the chat window
-4. **Select share:** Select share and copy the link to share with your team
+3. **Open the conversation menu:** Hover over the conversation in the **Chats** list in the left sidebar and click the **`…`** that appears (or click the **▾** next to the chat title at the top of the conversation)
+4. **Export:** Choose **Export** and save the file. Available actions in this menu are **Rename**, **Export**, and **Delete**.
+5. **Share the file** with your team via your usual channel (issue, PR comment, Teams/Slack, wiki, etc.)
 
-#### View Shared Conversation
-1. **Navigate to GitHub Copilot:** Go to [https://github.com/copilot](https://github.com/copilot)
-2. **Access sharing options:** Click on your user icon on the bottom-left corner
-3. **Open conversation management:** Select **"Manage shared conversations"**
+#### What to Explore
+- **Export format:** Open the exported file — notice it captures the full prompt/response history so a teammate gets the same context you had
+- **Reuse:** Teammates can paste the exported prompts into their own chat to reproduce or build on your work
+- **Combine with personal instructions:** Pair a shared export with the personal instructions from Step 3 to show how setup + prompt together produced the result
 
-#### What to Explore with Shared Conversations
-- **Shared Conversations:** Browse conversations shared by your team
-- **Categories:** See how conversations are organized by topic
-- **Usage Patterns:** Notice which types of conversations are shared most often
-
-**💼 Best Practices for Sharing:**
-- Share conversations that solved complex problems
-- Include context about when and why certain approaches work
-- Tag conversations with relevant keywords for easy discovery
+**💼 Best Practices for Sharing Exports:**
+- Export conversations that solved complex problems
+- Include a short note about *when* and *why* the approach worked when you share the file
+- Store reusable, high-value exports somewhere discoverable (team wiki, repo `docs/` folder) rather than only DMs
 
 ## 🚀 What's Next?
 
