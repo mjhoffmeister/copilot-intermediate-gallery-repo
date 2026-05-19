@@ -140,18 +140,20 @@ Fix pagination in GalleryGrid.tsx: Change startIndex from 0 to (currentPage - 1)
 
 ## 📊 Step 5: Review and Commit Your Changes
 
-### Option A: Inline AI-Powered Review
+### Option A: Review a selection with Copilot Chat
 
-1. **Select generated code:** Highlight the code that was created
-2. **Open Copilot menu:** Right-click → Select "Copilot"
-3. **Get review:** Choose "Review and Comment"
-4. **Process feedback:** Review suggestions and accept/discard as needed
+1. **Select generated code:** Highlight the code that was created.
+2. **Open the Command Palette:** Press `Ctrl+Shift+P`.
+3. **Run the review command:** Type `Chat: Review` and press `Enter`.
+4. **Process feedback:** Review the inline comments and apply, edit, or dismiss each suggestion.
 
-### Option B: Source Code AI-Powered Review
+### Option B: Review uncommitted changes from Source Control
 
-1. **Select Source Control in the Activity Bar:** Click the Source Control icon in the left sidebar to open the source control panel.
-2. **Start review:** At the top of the Source Control view, hover over CHANGES, then click the  Copilot Code Review - Uncommitted Changes button.
-3. **View comments:** If Copilot has any comments, they will be shown inline in your file(s), and in the Problems tab.
+1. **Open Source Control:** Click the Source Control icon in the Activity Bar (or press `Ctrl+Shift+G`).
+2. **Right-click the "Changes" group header** and select **Review Changes**.
+3. Copilot reviews all unstaged changes and posts inline comments in the affected files. Apply, edit, or dismiss each suggestion.
+
+> ℹ️ Copilot's review features are still experimental in VS Code, so menu names and button locations change between releases. The Command Palette (`Chat: Review`) and the `#changes` chat reference are the most stable entry points.
 
 ### Option C: Manual Review
 
