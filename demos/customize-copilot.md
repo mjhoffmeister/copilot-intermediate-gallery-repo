@@ -85,7 +85,7 @@ Prompt
 /generate-new-ui for the recent galleries table in the admin page. I want it to be the replacement component for the current table and be reuseable.  Place it in the layout folder.
 ```
 
-**BONAS CHALLENGE:** Create your own prompt file for unit tests
+**BONUS CHALLENGE:** Create your own prompt file for unit tests
 
 Ask copilot to generate a new prompt file for unit tests. Use the following steps:
 
