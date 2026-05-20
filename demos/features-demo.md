@@ -122,7 +122,7 @@ If you are unsure which improvement to pick, we have provided a suggested implem
 
 <details>
 <summary>Implementation option</summary>
-Fix pagination in GalleryGrid.tsx: Change startIndex from 0 to (currentPage - 1) * photosPerPage so that page navigation actually shows different photos instead of repeating the same set.
+The gallery currently shows colored gradient squares instead of real photos. Make actual images appear in the gallery on the home page and on `/gallery`.
 </details>
 <br>
 
